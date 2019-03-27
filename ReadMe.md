@@ -33,3 +33,17 @@ fatal: not a git repository (or any of the parent directories): .git
 致命:不是git存储库(或任何父目录):.git
 
 遇到问题，可能是需要git init 
+
+cd到新目录下，重新 git init 
+
+Reinitialized existing Git repository in F:/New_for_Python/New_Repository_for_python/.git/
+
+
+这一次成功了！
+
+分析刚才报错的原因是。我在本地电脑上建立的文件夹，和远程的文件夹不一致。我CD到新仓库文件夹下面，又重新 git init 了一次，又重复操作 
+git add -A
+git commit -m "删旧建新，再温习"
+git push origin master 
+
+OK！ 今天收获挺多！开心 ！
